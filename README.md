@@ -141,6 +141,162 @@ Las clases del HTML renderizado por PHP están presentes en el documento para he
 
 ## Desarrollo
 
+### Preparar una PC nueva (Windows)
+
+Este recorrido instala un entorno de desarrollo y conecta el repositorio con un WordPress local. Instalar solamente el ZIP en un sitio existente no requiere Node ni estas herramientas.
+
+#### 1. Herramientas que debes instalar
+
+| Herramienta | Para qué se usa | Instalación |
+| --- | --- | --- |
+| Git para Windows | Clonar el repositorio, trabajar en ramas y enviar cambios a GitHub. | [Descarga oficial](https://git-scm.com/install/windows). Mantén Git accesible desde la terminal. |
+| Node.js LTS y npm | Instalar Vite y compilar los assets del theme. | [Descarga oficial](https://nodejs.org/en/download). Para una PC nueva utiliza Node 24 LTS; npm viene con Node. |
+| Local | Crear y ejecutar WordPress con PHP, base de datos y servidor local. | [Descarga oficial](https://localwp.com/) y [guía de inicio](https://localwp.com/help-docs/getting-started/). |
+| Editor de código | Editar PHP, CSS, JavaScript, JSON y Markdown. | Puedes utilizar [Visual Studio Code](https://code.visualstudio.com/) u otro editor de tu preferencia. |
+| Navegador con herramientas de desarrollo | Revisar frontend, Gutenberg, errores, red y tamaños móviles. | Utiliza tu navegador habitual actualizado. |
+
+Requisitos del theme: WordPress 6.6+ y PHP 8.1+. Para desarrollar, el proyecto declara Node 20.19+; Vite 7 requiere Node 20.19+ o 22.12+ en esas ramas. La opción Node 24 LTS evita instalar una versión antigua en una PC nueva. Consulta los [requisitos oficiales de Vite](https://vite.dev/guide/).
+
+Con Local no necesitas instalar además XAMPP, Apache, MySQL o un PHP independiente para ejecutar el sitio. Vite se instala dentro del proyecto mediante npm; no lo instales globalmente. ACF, un plugin SEO, WooCommerce, Docker, Composer y WP-CLI no son requisitos de esta base. Pueden añadirse cuando el proyecto de especialidad los necesite.
+
+Después de instalar Git y Node, cierra y vuelve a abrir PowerShell para actualizar PATH. Comprueba:
+
+```powershell
+git --version
+node --version
+npm.cmd --version
+```
+
+Si un comando no se reconoce, revisa la instalación y PATH antes de continuar. Los ejemplos de Windows usan `npm.cmd` para evitar que PowerShell intente ejecutar `npm.ps1` cuando su política de ejecución lo bloquea; no hace falta cambiar esa política para utilizar npm.
+
+#### 2. Crear el WordPress de desarrollo
+
+1. Abre Local y crea un sitio nuevo, por ejemplo **al-dev**.
+2. Selecciona un entorno con PHP 8.1 o superior; PHP 8.2 es una opción utilizada en las pruebas de esta base.
+3. Crea el usuario administrador del sitio y arranca el sitio desde Local.
+4. Abre el administrador y confirma que WordPress cumple la versión mínima.
+5. Local muestra la ubicación de archivos del sitio. Identifica su carpeta `app/public`, que contiene `wp-admin`, `wp-includes` y `wp-content`.
+
+La siguiente ruta es un **ejemplo** de instalación predeterminada; ajústala a la ubicación real mostrada por Local:
+
+```text
+C:\Users\TU-USUARIO\Local Sites\al-dev\app\public\
+```
+
+El dominio y las credenciales son propios de cada instalación. `beta-al.local` pertenece al entorno utilizado para revisar el theme, no es una dirección que debas reutilizar en otra PC.
+
+#### 3. Clonar el theme en la carpeta correcta
+
+La forma más directa es clonar dentro del WordPress local. Así WordPress utiliza exactamente los archivos que estás editando y compilando, sin tener que copiar cada cambio desde otra carpeta.
+
+En PowerShell, reemplaza la primera ruta por la de tu sitio:
+
+```powershell
+$wpRoot = 'C:\Users\TU-USUARIO\Local Sites\al-dev\app\public'
+cd "$wpRoot\wp-content\themes"
+git clone https://github.com/codiless/AL-Theme.git al-base
+cd al-base
+```
+
+La estructura resultante debe ser:
+
+```text
+app/public/
+└── wp-content/
+    └── themes/
+        └── al-base/
+            ├── functions.php
+            ├── style.css
+            ├── theme.json
+            ├── README.md
+            ├── assets/
+            └── docs/
+```
+
+No clones dentro de otra carpeta `al-base` ni dentro del theme predeterminado de WordPress. El nombre del repositorio es AL-Theme, pero aquí elegimos `al-base` como carpeta para mantener el `Template: al-base` de los child themes. Si la carpeta ya existe, revisa si ya es tu copia del proyecto; no la sobrescribas sin revisar sus cambios.
+
+En WordPress, activa **AL Base** desde Apariencia → Temas. Configura menús y lectura siguiendo la [guía de edición](docs/editor-guide.md). Clonar el repositorio no copia la base de datos, páginas, usuarios, imágenes de Media, plugins ni la configuración de otro WordPress.
+
+#### 4. Instalar dependencias y comenzar a editar
+
+Ejecuta desde la carpeta `al-base`, donde está `package.json`:
+
+```powershell
+npm.cmd ci
+npm.cmd run build
+npm.cmd run dev
+```
+
+`npm ci` instala las dependencias exactas del lockfile. Necesita acceso a Internet en la primera instalación. No copies node_modules desde otra PC. `build` genera assets compilados; `dev` queda observando los fuentes y recompila al guardar. Mantén esa terminal abierta mientras editas y pulsa Ctrl+C cuando termines.
+
+Abre esa misma carpeta en el editor de código. Si instalaste el comando de VS Code en PATH, puedes usar `code .`. Visita la URL del sitio indicada por Local para revisar el frontend y abre su administrador para probar Gutenberg. `npm run dev` no abre WordPress, no crea una URL y no ejecuta un servidor HMR.
+
+Para extender un proyecto de especialidad, crea un child separado y sigue [este manual](docs/specialty-themes.md). Edita el padre cuando el cambio pertenezca a la base compartida.
+
+#### 5. Habilitar las comprobaciones PHP
+
+Que Local ejecute PHP para el sitio no significa que `php` esté disponible en todas las terminales. Local ofrece una Site Shell para trabajar con el entorno del sitio; consulta sus [funciones oficiales](https://localwp.com/features/). También puedes indicar al check la ruta del ejecutable PHP mediante `AL_PHP`.
+
+En la terminal que uses para el proyecto, comprueba `php -v`. Si no existe ese comando, localiza el `php.exe` que utiliza Local y sustituye la ruta de ejemplo:
+
+```powershell
+$env:AL_PHP = 'C:\RUTA-REAL-DEL-PHP-DE-LOCAL\php.exe'
+& $env:AL_PHP -v
+$env:AL_WP_ROOT = $wpRoot
+npm.cmd run check
+```
+
+`$wpRoot` es la variable con la ruta del sitio definida al clonar. Si abriste una terminal nueva, vuelve a definirla. Las variables `$env:...` de este ejemplo duran en esa sesión; configúralas de nuevo cuando corresponda.
+
+Si `php -v` funciona por PATH, AL_PHP es opcional. AL_WP_ROOT también es opcional: habilita el parser de bloques y lector MO reales de WordPress, sin cargar su configuración ni probar su base de datos. La salida correcta debe indicar **PHP syntax verified**, contratos del motor y aislamiento editor/frontend; con AL_WP_ROOT también debe indicar los patrones y traducciones nativos verificados. Un mensaje de PHP no encontrado significa que esa parte no se ejecutó.
+
+#### 6. Trabajar con GitHub desde la PC nueva
+
+Clonar configura automáticamente el remoto origin. No ejecutes `git init` de nuevo. Configura tu identidad de commits una vez, sustituyendo los ejemplos por tu nombre y correo de GitHub (puede ser el correo noreply de tu cuenta):
+
+```powershell
+git config --global user.name "Tu nombre"
+git config --global user.email "TU-CORREO-DE-COMMITS"
+git remote -v
+git switch -c docs/mi-cambio
+```
+
+La identidad del commit no autentica en GitHub. Para enviar cambios necesitas acceso al repositorio y completar el flujo de autenticación de Git; no escribas una contraseña o token dentro de la URL del remoto.
+
+Después de editar y verificar:
+
+```powershell
+git status
+git add README.md docs
+git commit -m "Documentar el entorno de desarrollo"
+git push -u origin docs/mi-cambio
+```
+
+Este ejemplo solo añade documentación. Para cambios de código, añade los archivos correspondientes y los assets/dist reconstruidos cuando hayan cambiado. Abre un pull request de tu rama en GitHub para revisión. Antes de iniciar otro cambio, actualiza main desde origin con tu árbol de trabajo limpio:
+
+```powershell
+git switch main
+git pull --ff-only origin main
+```
+
+Si ese pull falla por divergencia, revisa el historial antes de mezclar o reescribir commits. node_modules, caché y release están excluidos por `.gitignore`; no los añadas con `git add -f`.
+
+#### 7. Generar una entrega y comprobar el entorno
+
+Detén el watch y ejecuta:
+
+```powershell
+npm.cmd run build
+npm.cmd run check
+npm.cmd run package
+```
+
+El paquete instalable queda en `release/al-base.zip`. Para una release de GitHub se adjunta ese ZIP aparte; no es necesario incorporarlo al historial del código.
+
+Una PC está lista cuando Git/Node/npm responden, WordPress local abre, AL Base aparece activo, el build termina, los checks previstos se ejecutan y un cambio guardado en los fuentes aparece al recargar el sitio. Para errores y pruebas visuales adicionales consulta [desarrollo y mantenimiento](docs/development.md).
+
+### Comandos del proyecto
+
 ```sh
 npm ci
 npm run dev     # Vite build --watch: actualiza assets/dist, sin servidor/HMR.

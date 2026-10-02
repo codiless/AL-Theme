@@ -1,0 +1,670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AL Base 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: al-base\n"
+
+#: components/cards/default.php:31
+#, php-format
+msgid "%s minute read"
+msgid_plural "%s minutes read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/footer.php:5
+#, php-format
+msgid "© %1$s %2$s"
+msgstr ""
+
+#: theme.json
+msgid "2XL"
+msgstr ""
+
+#: patterns/hero.php:10
+msgid "A clear foundation for your next project"
+msgstr ""
+
+#: theme.json
+msgid "Accent"
+msgstr ""
+
+#: patterns/faq.php:10
+msgid "Add a clear answer to your most common question."
+msgstr ""
+
+#: patterns/contact.php:10
+msgid "Add your contact details and insert a block from your preferred form plugin."
+msgstr ""
+
+#: patterns/content-sidebar.php:9
+msgid "Add your content here."
+msgstr ""
+
+#: inc/gutenberg.php:4
+msgid "AL Base"
+msgstr ""
+
+#: assets/src/js/editor.js:79
+msgid "AL Latest content"
+msgstr ""
+
+#: inc/fields.php:26
+msgid "AL public field"
+msgstr ""
+
+#: template-parts/content-single.php:5
+msgid "Article pages"
+msgstr ""
+
+#: assets/src/js/editor.js:49
+msgid "Ascending"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Author"
+msgstr ""
+
+#: assets/src/js/editor.js:47
+msgid "Author ID (0 = any)"
+msgstr ""
+
+#: theme.json
+msgid "Background"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Badge"
+msgstr ""
+
+#: assets/src/js/editor.js:66
+msgid "Badge field"
+msgstr ""
+
+#: theme.json
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgid "Border"
+msgstr ""
+
+#: assets/src/js/editor.js:75 components/breadcrumbs/default.php:2 inc/blocks.php:8 inc/breadcrumbs.php:40 release/installed-1.0.0-backup/inc/blocks.php:8
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/src/js/editor.js:76
+msgid "Breadcrumbs appear on the published page."
+msgstr ""
+
+#: patterns/hero.php:11
+msgid "Build useful experiences with flexible content and a thoughtful design."
+msgstr ""
+
+#: patterns/cta.php:3
+msgid "Call to action"
+msgstr ""
+
+#: assets/src/js/editor.js:59
+msgid "Card and dynamic data"
+msgstr ""
+
+#: assets/src/js/editor.js:60
+msgid "Card variant"
+msgstr ""
+
+#: inc/gutenberg.php:6
+msgid "Cards"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Category"
+msgstr ""
+
+#: assets/src/js/editor.js:33
+msgid "Children"
+msgstr ""
+
+#: assets/src/js/editor.js:25
+msgid "Comma-separated IDs. Manual order is preserved."
+msgstr ""
+
+#: comments.php:4
+msgid "Comments"
+msgstr ""
+
+#: assets/src/js/editor.js:55 inc/cards.php:4
+msgid "Compact"
+msgstr ""
+
+#: patterns/contact.php:9
+msgid "Contact"
+msgstr ""
+
+#: patterns/contact.php:3
+msgid "Contact section"
+msgstr ""
+
+#: patterns/cta.php:11
+msgid "Contact us"
+msgstr ""
+
+#: patterns/content-sidebar.php:3
+msgid "Content and sidebar"
+msgstr ""
+
+#: inc/blocks.php:7 release/installed-1.0.0-backup/inc/blocks.php:7
+msgid "Content Listing"
+msgstr ""
+
+#: components/pagination/listing.php:8
+msgid "Content pages"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Count"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Custom fields"
+msgstr ""
+
+#: assets/src/js/editor.js:48 assets/src/js/editor.js:62
+msgid "Date"
+msgstr ""
+
+#: inc/cards.php:4
+msgid "Default"
+msgstr ""
+
+#: assets/src/js/editor.js:49
+msgid "Descending"
+msgstr ""
+
+#: assets/src/js/editor.js:56
+msgid "Desktop columns"
+msgstr ""
+
+#: assets/src/js/editor.js:49
+msgid "Direction"
+msgstr ""
+
+#: theme.json
+msgid "Display"
+msgstr ""
+
+#: assets/src/js/editor.js:63
+msgid "Element order"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Excerpt"
+msgstr ""
+
+#: assets/src/js/editor.js:46
+msgid "Exclude IDs"
+msgstr ""
+
+#: patterns/hero.php:12
+msgid "Explore content"
+msgstr ""
+
+#: patterns/category-grid.php:9
+msgid "Explore topics"
+msgstr ""
+
+#: inc/cards.php:4
+msgid "Featured"
+msgstr ""
+
+#: assets/src/js/editor.js:55
+msgid "Featured + grid"
+msgstr ""
+
+#: patterns/featured-content.php:3 patterns/featured-content.php:9
+msgid "Featured content"
+msgstr ""
+
+#: patterns/footer-cta.php:3
+msgid "Footer call to action"
+msgstr ""
+
+#: inc/setup.php:11 release/installed-1.0.0-backup/inc/setup.php:11 template-parts/footer.php:4
+msgid "Footer navigation"
+msgstr ""
+
+#: patterns/faq.php:3 patterns/faq.php:9
+msgid "Frequently asked questions"
+msgstr ""
+
+#: assets/src/js/editor.js:57
+msgid "Gap"
+msgstr ""
+
+#: patterns/footer-cta.php:10
+msgid "Get in touch"
+msgstr ""
+
+#: assets/src/js/editor.js:55
+msgid "Grid"
+msgstr ""
+
+#: theme.json
+msgid "H1"
+msgstr ""
+
+#: theme.json
+msgid "H2"
+msgstr ""
+
+#: theme.json
+msgid "H3"
+msgstr ""
+
+#: theme.json
+msgid "H4"
+msgstr ""
+
+#: theme.json
+msgid "H5"
+msgstr ""
+
+#: theme.json
+msgid "H6"
+msgstr ""
+
+#: assets/src/js/editor.js:61
+msgid "Heading level"
+msgstr ""
+
+#: patterns/hero.php:3
+msgid "Hero"
+msgstr ""
+
+#: patterns/hero-breadcrumbs.php:3
+msgid "Hero with breadcrumbs"
+msgstr ""
+
+#: assets/src/js/editor.js:42
+msgid "Hide empty terms"
+msgstr ""
+
+#: inc/breadcrumbs.php:4 inc/navigation.php:32
+msgid "Home"
+msgstr ""
+
+#: assets/src/js/editor.js:55 inc/cards.php:4
+msgid "Horizontal"
+msgstr ""
+
+#: patterns/faq.php:10
+msgid "How can we help?"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Image"
+msgstr ""
+
+#: assets/src/js/editor.js:45
+msgid "Include / manual IDs"
+msgstr ""
+
+#: patterns/hero-breadcrumbs.php:11
+msgid "Introduce your page with a short, useful description."
+msgstr ""
+
+#: assets/src/js/editor.js:51
+msgid "Items per page"
+msgstr ""
+
+#: theme.json
+msgid "L"
+msgstr ""
+
+#: inc/compatibility.php:11
+msgid "Languages"
+msgstr ""
+
+#: inc/breadcrumbs.php:32 index.php:7 patterns/latest-content.php:9
+msgid "Latest content"
+msgstr ""
+
+#: patterns/latest-content.php:3
+msgid "Latest content (native Query Loop)"
+msgstr ""
+
+#: assets/src/js/editor.js:54 assets/src/js/editor.js:55
+msgid "Layout"
+msgstr ""
+
+#: patterns/faq.php:11
+msgid "Link to useful resources or your contact page."
+msgstr ""
+
+#: assets/src/js/editor.js:55
+msgid "List"
+msgstr ""
+
+#: assets/src/js/editor.js:52 components/pagination/listing.php:11
+msgid "Load more"
+msgstr ""
+
+#: patterns/logos.php:3
+msgid "Logo section"
+msgstr ""
+
+#: theme.json
+msgid "M"
+msgstr ""
+
+#: patterns/content-sidebar.php:9
+msgid "Main content"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Manual order"
+msgstr ""
+
+#: assets/src/js/editor.js:37
+msgid "Manual selection"
+msgstr ""
+
+#: template-parts/header.php:13
+msgid "Menu"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Menu order"
+msgstr ""
+
+#: inc/cards.php:4
+msgid "Minimal"
+msgstr ""
+
+#: assets/src/js/editor.js:56
+msgid "Mobile columns"
+msgstr ""
+
+#: components/listings/default.php:12
+msgid "More content loaded."
+msgstr ""
+
+#: assets/src/js/editor.js:64
+msgid "Move up"
+msgstr ""
+
+#: theme.json
+msgid "Muted"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Name"
+msgstr ""
+
+#: assets/src/js/editor.js:80
+msgid "Native Query Loop with responsive cards."
+msgstr ""
+
+#: components/pagination/listing.php:11 index.php:13
+msgid "Next"
+msgstr ""
+
+#: assets/src/js/editor.js:83 components/listings/default.php:10 patterns/latest-content.php:17
+msgid "No content found."
+msgstr ""
+
+#: template-parts/content-none.php:2
+msgid "No content found. Try another search."
+msgstr ""
+
+#: assets/src/js/editor.js:27 assets/src/js/editor.js:52
+msgid "None"
+msgstr ""
+
+#: assets/src/js/editor.js:51
+msgid "Offset"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Order by"
+msgstr ""
+
+#: patterns/logos.php:9
+msgid "Our partners"
+msgstr ""
+
+#: components/pagination/listing.php:10
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: assets/src/js/editor.js:52
+msgid "Page links"
+msgstr ""
+
+#: 404.php:4 inc/breadcrumbs.php:30
+msgid "Page not found"
+msgstr ""
+
+#: template-parts/content-page.php:4
+msgid "Page sections"
+msgstr ""
+
+#: assets/src/js/editor.js:52
+msgid "Pagination"
+msgstr ""
+
+#: assets/src/js/editor.js:43
+msgid "Parent ID (0 = current page)"
+msgstr ""
+
+#: assets/src/js/editor.js:39
+msgid "Post type"
+msgstr ""
+
+#: assets/src/js/editor.js:31
+msgid "Posts / pages / CPT"
+msgstr ""
+
+#: components/pagination/listing.php:9 index.php:13
+msgid "Previous"
+msgstr ""
+
+#: theme.json
+msgid "Primary"
+msgstr ""
+
+#: inc/setup.php:11 release/installed-1.0.0-backup/inc/setup.php:11 template-parts/header.php:16
+msgid "Primary navigation"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Random (avoid with pagination)"
+msgstr ""
+
+#: components/cards/default.php:39
+msgid "Read more"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Read more link"
+msgstr ""
+
+#: assets/src/js/editor.js:62
+msgid "Reading time"
+msgstr ""
+
+#: patterns/footer-cta.php:9
+msgid "Ready for the next step?"
+msgstr ""
+
+#: assets/src/js/editor.js:36
+msgid "Related by public field"
+msgstr ""
+
+#: assets/src/js/editor.js:35
+msgid "Related by taxonomy"
+msgstr ""
+
+#: patterns/related-content.php:3 patterns/related-content.php:9
+msgid "Related content"
+msgstr ""
+
+#: assets/src/js/editor.js:44
+msgid "Relationship field"
+msgstr ""
+
+#: inc/blocks.php:7 release/installed-1.0.0-backup/inc/blocks.php:7
+msgid "Reusable advanced queries with independent layouts and cards."
+msgstr ""
+
+#: theme.json
+msgid "S"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: index.php:5
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search the site"
+msgstr ""
+
+#: inc/breadcrumbs.php:28
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search…"
+msgstr ""
+
+#: theme.json
+msgid "Secondary"
+msgstr ""
+
+#: assets/src/js/editor.js:34
+msgid "Siblings"
+msgstr ""
+
+#: inc/setup.php:15 release/installed-1.0.0-backup/inc/setup.php:15 sidebar.php:2
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:11
+msgid "Skip to content"
+msgstr ""
+
+#: assets/src/js/editor.js:48
+msgid "Slug"
+msgstr ""
+
+#: theme.json
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgid "Soft"
+msgstr ""
+
+#: assets/src/js/editor.js:50
+msgid "Sort by public field"
+msgstr ""
+
+#: assets/src/js/editor.js:30
+msgid "Source"
+msgstr ""
+
+#: assets/src/js/editor.js:29
+msgid "Source and query"
+msgstr ""
+
+#: assets/src/js/editor.js:67
+msgid "Stable listing ID"
+msgstr ""
+
+#: patterns/cta.php:9
+msgid "Start a conversation"
+msgstr ""
+
+#: theme.json inc/gutenberg.php:5
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgid "System Sans"
+msgstr ""
+
+#: assets/src/js/editor.js:56
+msgid "Tablet columns"
+msgstr ""
+
+#: assets/src/js/editor.js:40
+msgid "Taxonomy"
+msgstr ""
+
+#: patterns/category-grid.php:3
+msgid "Taxonomy grid"
+msgstr ""
+
+#: assets/src/js/editor.js:32
+msgid "Taxonomy terms"
+msgstr ""
+
+#: patterns/cta.php:10
+msgid "Tell us what you have in mind."
+msgstr ""
+
+#: assets/src/js/editor.js:41
+msgid "Term IDs"
+msgstr ""
+
+#: theme.json
+msgid "Text"
+msgstr ""
+
+#: 404.php:5
+msgid "The page may have moved. Search the site to find what you need."
+msgstr ""
+
+#: assets/src/js/editor.js:48 assets/src/js/editor.js:62
+msgid "Title"
+msgstr ""
+
+#: inc/navigation.php:13
+#, php-format
+msgid "Toggle submenu: %s"
+msgstr ""
+
+#: components/listings/default.php:12
+msgid "Unable to load content. Follow the next page link to continue."
+msgstr ""
+
+#: components/cards/default.php:9
+msgid "Untitled"
+msgstr ""
+
+#: patterns/content-sidebar.php:10
+msgid "Useful links"
+msgstr ""
+
+#: patterns/faq.php:11
+msgid "Where can I learn more?"
+msgstr ""
+
+#: theme.json
+msgid "XL"
+msgstr ""
+
+#: theme.json
+msgid "XS"
+msgstr ""
+
+#: patterns/hero-breadcrumbs.php:10
+msgid "Your page title"
+msgstr ""

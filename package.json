@@ -1,0 +1,16 @@
+{
+  "name": "al-base-theme",
+  "version": "1.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "check": "node scripts/check.mjs",
+    "pot": "node scripts/pot.mjs",
+    "translations": "node scripts/translations.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {"vite": "^7.1.0"},
+  "engines": {"node": ">=20.19.0"}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<wpml-config>
+  <gutenberg-blocks>
+    <gutenberg-block type="al-base/content-listing" translate="0" />
+    <gutenberg-block type="al-base/breadcrumbs" translate="0" />
+  </gutenberg-blocks>
+</wpml-config>

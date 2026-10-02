@@ -1,0 +1,496 @@
+msgid ""
+msgstr "Project-Id-Version: AL Base 1.0.0\nLanguage: es_ES\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s minute read"
+msgid_plural "%s minutes read"
+msgstr[0] "%s minuto de lectura"
+msgstr[1] "%s minutos de lectura"
+
+msgid "© %1$s %2$s"
+msgstr "© %1$s %2$s"
+
+msgid "2XL"
+msgstr "2XL"
+
+msgid "A clear foundation for your next project"
+msgstr "Una base sólida para tu próximo proyecto"
+
+msgid "Accent"
+msgstr "Acento"
+
+msgid "Add a clear answer to your most common question."
+msgstr "Añade una respuesta clara a la pregunta más frecuente."
+
+msgid "Add your contact details and insert a block from your preferred form plugin."
+msgstr "Añade tus datos de contacto e inserta un bloque de tu plugin de formularios preferido."
+
+msgid "Add your content here."
+msgstr "Añade tu contenido aquí."
+
+msgid "AL Base"
+msgstr "AL Base"
+
+msgid "AL Latest content"
+msgstr "AL Último contenido"
+
+msgid "AL public field"
+msgstr "Campo público AL"
+
+msgid "Article pages"
+msgstr "Páginas del artículo"
+
+msgid "Ascending"
+msgstr "Ascendente"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Author ID (0 = any)"
+msgstr "ID del autor (0 = cualquiera)"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Badge"
+msgstr "Etiqueta"
+
+msgid "Badge field"
+msgstr "Campo de etiqueta"
+
+msgid "Body"
+msgstr "Cuerpo"
+
+msgid "Border"
+msgstr "Borde"
+
+msgid "Breadcrumbs"
+msgstr "Ruta de navegación"
+
+msgid "Breadcrumbs appear on the published page."
+msgstr "La ruta de navegación aparece en la página publicada."
+
+msgid "Build useful experiences with flexible content and a thoughtful design."
+msgstr "Crea experiencias útiles con contenido flexible y un diseño cuidado."
+
+msgid "Call to action"
+msgstr "Llamada a la acción"
+
+msgid "Card and dynamic data"
+msgstr "Tarjeta y datos dinámicos"
+
+msgid "Card variant"
+msgstr "Variante de tarjeta"
+
+msgid "Cards"
+msgstr "Tarjetas"
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "Children"
+msgstr "Páginas hijas"
+
+msgid "Comma-separated IDs. Manual order is preserved."
+msgstr "IDs separados por comas. Se conserva el orden manual."
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Compact"
+msgstr "Compacto"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Contact section"
+msgstr "Sección de contacto"
+
+msgid "Contact us"
+msgstr "Contáctanos"
+
+msgid "Content and sidebar"
+msgstr "Contenido y barra lateral"
+
+msgid "Content Listing"
+msgstr "Listado de contenido"
+
+msgid "Content pages"
+msgstr "Páginas del listado"
+
+msgid "Count"
+msgstr "Cantidad"
+
+msgid "Custom fields"
+msgstr "Campos personalizados"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Default"
+msgstr "Predeterminada"
+
+msgid "Descending"
+msgstr "Descendente"
+
+msgid "Desktop columns"
+msgstr "Columnas en escritorio"
+
+msgid "Direction"
+msgstr "Dirección"
+
+msgid "Display"
+msgstr "Presentación"
+
+msgid "Element order"
+msgstr "Orden de elementos"
+
+msgid "Excerpt"
+msgstr "Extracto"
+
+msgid "Exclude IDs"
+msgstr "Excluir IDs"
+
+msgid "Explore content"
+msgstr "Explorar contenido"
+
+msgid "Explore topics"
+msgstr "Explorar temas"
+
+msgid "Featured"
+msgstr "Destacada"
+
+msgid "Featured + grid"
+msgstr "Destacado + cuadrícula"
+
+msgid "Featured content"
+msgstr "Contenido destacado"
+
+msgid "Footer call to action"
+msgstr "Llamada a la acción del pie"
+
+msgid "Footer navigation"
+msgstr "Navegación del pie de página"
+
+msgid "Frequently asked questions"
+msgstr "Preguntas frecuentes"
+
+msgid "Gap"
+msgstr "Separación"
+
+msgid "Get in touch"
+msgstr "Contactar"
+
+msgid "Grid"
+msgstr "Cuadrícula"
+
+msgid "H1"
+msgstr "H1"
+
+msgid "H2"
+msgstr "H2"
+
+msgid "H3"
+msgstr "H3"
+
+msgid "H4"
+msgstr "H4"
+
+msgid "H5"
+msgstr "H5"
+
+msgid "H6"
+msgstr "H6"
+
+msgid "Heading level"
+msgstr "Nivel del encabezado"
+
+msgid "Hero"
+msgstr "Presentación principal"
+
+msgid "Hero with breadcrumbs"
+msgstr "Presentación con ruta de navegación"
+
+msgid "Hide empty terms"
+msgstr "Ocultar términos vacíos"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "How can we help?"
+msgstr "¿Cómo podemos ayudarte?"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Include / manual IDs"
+msgstr "Incluir IDs / selección manual"
+
+msgid "Introduce your page with a short, useful description."
+msgstr "Presenta tu página con una descripción breve y útil."
+
+msgid "Items per page"
+msgstr "Elementos por página"
+
+msgid "L"
+msgstr "L"
+
+msgid "Languages"
+msgstr "Idiomas"
+
+msgid "Latest content"
+msgstr "Último contenido"
+
+msgid "Latest content (native Query Loop)"
+msgstr "Último contenido (Query Loop nativo)"
+
+msgid "Layout"
+msgstr "Disposición"
+
+msgid "Link to useful resources or your contact page."
+msgstr "Enlaza recursos útiles o tu página de contacto."
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Load more"
+msgstr "Cargar más"
+
+msgid "Logo section"
+msgstr "Sección de logos"
+
+msgid "M"
+msgstr "M"
+
+msgid "Main content"
+msgstr "Contenido principal"
+
+msgid "Manual order"
+msgstr "Orden manual"
+
+msgid "Manual selection"
+msgstr "Selección manual"
+
+msgid "Menu"
+msgstr "Menú"
+
+msgid "Menu order"
+msgstr "Orden del menú"
+
+msgid "Minimal"
+msgstr "Mínima"
+
+msgid "Mobile columns"
+msgstr "Columnas en móvil"
+
+msgid "More content loaded."
+msgstr "Se cargó más contenido."
+
+msgid "Move up"
+msgstr "Subir"
+
+msgid "Muted"
+msgstr "Atenuado"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Native Query Loop with responsive cards."
+msgstr "Query Loop nativo con tarjetas adaptables."
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "No content found."
+msgstr "No se encontró contenido."
+
+msgid "No content found. Try another search."
+msgstr "No se encontró contenido. Prueba otra búsqueda."
+
+msgid "None"
+msgstr "Ninguna"
+
+msgid "Offset"
+msgstr "Desplazamiento"
+
+msgid "Order by"
+msgstr "Ordenar por"
+
+msgid "Our partners"
+msgstr "Nuestros socios"
+
+msgid "Page %1$s of %2$s"
+msgstr "Página %1$s de %2$s"
+
+msgid "Page links"
+msgstr "Enlaces de páginas"
+
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+msgid "Page sections"
+msgstr "Secciones de la página"
+
+msgid "Pagination"
+msgstr "Paginación"
+
+msgid "Parent ID (0 = current page)"
+msgstr "ID del padre (0 = página actual)"
+
+msgid "Post type"
+msgstr "Tipo de contenido"
+
+msgid "Posts / pages / CPT"
+msgstr "Entradas / páginas / CPT"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Primary"
+msgstr "Primario"
+
+msgid "Primary navigation"
+msgstr "Navegación principal"
+
+msgid "Random (avoid with pagination)"
+msgstr "Aleatorio (evitar con paginación)"
+
+msgid "Read more"
+msgstr "Leer más"
+
+msgid "Read more link"
+msgstr "Enlace para leer más"
+
+msgid "Reading time"
+msgstr "Tiempo de lectura"
+
+msgid "Ready for the next step?"
+msgstr "¿Listo para el siguiente paso?"
+
+msgid "Related by public field"
+msgstr "Relacionados por campo público"
+
+msgid "Related by taxonomy"
+msgstr "Relacionados por taxonomía"
+
+msgid "Related content"
+msgstr "Contenido relacionado"
+
+msgid "Relationship field"
+msgstr "Campo de relación"
+
+msgid "Reusable advanced queries with independent layouts and cards."
+msgstr "Consultas avanzadas reutilizables con disposiciones y tarjetas independientes."
+
+msgid "S"
+msgstr "S"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Search results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+msgid "Search the site"
+msgstr "Buscar en el sitio"
+
+msgid "Search: %s"
+msgstr "Búsqueda: %s"
+
+msgid "Search…"
+msgstr "Buscar…"
+
+msgid "Secondary"
+msgstr "Secundario"
+
+msgid "Siblings"
+msgstr "Páginas hermanas"
+
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Small"
+msgstr "Pequeño"
+
+msgid "Soft"
+msgstr "Suave"
+
+msgid "Sort by public field"
+msgstr "Ordenar por campo público"
+
+msgid "Source"
+msgstr "Fuente"
+
+msgid "Source and query"
+msgstr "Fuente y consulta"
+
+msgid "Stable listing ID"
+msgstr "ID estable del listado"
+
+msgid "Start a conversation"
+msgstr "Inicia una conversación"
+
+msgid "Surface"
+msgstr "Superficie"
+
+msgid "System Sans"
+msgstr "Sans del sistema"
+
+msgid "Tablet columns"
+msgstr "Columnas en tablet"
+
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+msgid "Taxonomy grid"
+msgstr "Cuadrícula de taxonomías"
+
+msgid "Taxonomy terms"
+msgstr "Términos de taxonomía"
+
+msgid "Tell us what you have in mind."
+msgstr "Cuéntanos qué tienes en mente."
+
+msgid "Term IDs"
+msgstr "IDs de términos"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "The page may have moved. Search the site to find what you need."
+msgstr "La página puede haber cambiado de ubicación. Busca en el sitio lo que necesitas."
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Toggle submenu: %s"
+msgstr "Abrir o cerrar submenú: %s"
+
+msgid "Unable to load content. Follow the next page link to continue."
+msgstr "No se pudo cargar el contenido. Sigue el enlace a la siguiente página para continuar."
+
+msgid "Untitled"
+msgstr "Sin título"
+
+msgid "Useful links"
+msgstr "Enlaces útiles"
+
+msgid "Where can I learn more?"
+msgstr "¿Dónde puedo saber más?"
+
+msgid "XL"
+msgstr "XL"
+
+msgid "XS"
+msgstr "XS"
+
+msgid "Your page title"
+msgstr "Título de tu página"
